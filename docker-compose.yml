@@ -23,7 +23,7 @@ volumes:
     driver: local
   customer-api-db:
     driver: local
-
 networks:
   spring-boot-keycloak-from-scratch:
+    driver: bridge
 
